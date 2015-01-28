@@ -13,6 +13,7 @@
 		F67F30C11A780D59008DEDA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67F30C01A780D59008DEDA8 /* Images.xcassets */; };
 		F67F30C41A780D59008DEDA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F67F30C21A780D59008DEDA8 /* LaunchScreen.xib */; };
 		F67F30D01A780D59008DEDA8 /* Find_my_placeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F30CF1A780D59008DEDA8 /* Find_my_placeTests.swift */; };
+		F67F30DA1A780D66008DEDA8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67F30D91A780D66008DEDA8 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F67F30C91A780D59008DEDA8 /* Find my placeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find my placeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F67F30CE1A780D59008DEDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F67F30CF1A780D59008DEDA8 /* Find_my_placeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_my_placeTests.swift; sourceTree = "<group>"; };
+		F67F30D91A780D66008DEDA8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67F30DA1A780D66008DEDA8 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		F67F30AB1A780D59008DEDA8 = {
 			isa = PBXGroup;
 			children = (
+				F67F30D91A780D66008DEDA8 /* CoreLocation.framework */,
 				F67F30B61A780D59008DEDA8 /* Find my place */,
 				F67F30CC1A780D59008DEDA8 /* Find my placeTests */,
 				F67F30B51A780D59008DEDA8 /* Products */,
